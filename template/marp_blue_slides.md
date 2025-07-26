@@ -11,8 +11,10 @@ style: |
     font-size: 28px;
     line-height: 1.6;
     padding: 60px;
-    justify-content: start;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
   }
   h1 {
     color: #2563eb;
@@ -22,16 +24,7 @@ style: |
     padding-bottom: 15px;
     margin-bottom: 40px;
     text-align: left;
-    position: absolute;
-    top: 80px;
-    left: 60px;
-    right: 60px;
-    margin-top: 0;
-    z-index: 10;
-  }
-  section {
-    position: relative;
-    /* 既存のsectionスタイルはそのまま */
+
   }
   h2 {
     color: #1d4ed8;
